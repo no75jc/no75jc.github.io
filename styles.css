@@ -16,13 +16,16 @@ body{
 }
 
 .hero{
-  min-height: 92vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding: 72px 20px;
-  position:relative;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  place-items: center;
   text-align:center;
+
+  background-image: url(assets/a82defd077853bd949fd42d18b06c4a8.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-overlay{
